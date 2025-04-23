@@ -49,13 +49,13 @@
     background: linear-gradient(45deg, #4f46e5, #9333ea);
     transform: scale(1.05);
   }
-
   .button-row {
     display: flex;
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
-  }  
+  }
+  
   /* Table Styles */
   table {
     width: 100%;
