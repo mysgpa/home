@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>S!D- SGPA Calculator</title>
+  <title>SGPA Calculator- SID</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
   <div class="container">
     <h1>SGPA Calculator</h1>
     
-    <button id="addSubject">➕ Add Subject</button>
+    
     <table id="subjectsTable">
       <thead>
         <tr>
@@ -25,8 +24,10 @@
         <!-- Dynamic rows will be added here -->
       </tbody>
     </table>
-    
-    <button id="calculateBtn">🎓 Calculate SGPA</button>
+    <div class="button-row">
+      <button id="addSubject">➕ Add Subject</button>
+      <button id="calculateBtn">🎓 Calculate SGPA</button>
+    </div>    
     <div id="result"></div>
   </div>
 
